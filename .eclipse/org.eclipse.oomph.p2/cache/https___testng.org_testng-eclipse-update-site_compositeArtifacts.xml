@@ -1,0 +1,25 @@
+<repository name="TestNG Eclipse Composite P2 Repo" type="org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository" version="1.0.0">
+  <properties size="2">
+    <property name="p2.timestamp" value="1454086165279"/>
+    <property name="p2.atomic.composite.loading" value="true"/>
+  </properties>
+  <children size="3">
+    <child location="6.9.13"/>
+    <child location="6.9.12"/>
+    <child location="6.9.11"/>
+    <child location="6.9.10"/>
+    <child location="6.9.5"/>
+    <child location="6.10.0"/>
+    <child location="6.11.0"/>
+    <child location="6.12.0"/>
+    <child location="6.13.0"/>
+    <child location="6.14.0"/>
+    <child location="6.14.3"/>
+    <child location="7.0.0"/>
+    <child location="7.1.0"/>
+    <child location="7.1.1"/>
+    <child location="7.2.0"/>
+    <child location="7.3.0"/>
+    <child location="7.4.0"/>
+  </children>
+</repository>
