@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test.browserwindows_test(failed)(failed)(failed)(failed)">
+    <parameter name="env" value="stagingurl"/>
+    <classes>
+      <class name="test.browserwindows_test">
+        <methods>
+          <include name="teardown"/>
+          <include name="getanalysis"/>
+          <include name="clickonNewWindowmsg"/>
+          <include name="getLaunchtestingBaba"/>
+        </methods>
+      </class> <!-- test.browserwindows_test -->
+    </classes>
+  </test> <!-- test.browserwindows_test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
