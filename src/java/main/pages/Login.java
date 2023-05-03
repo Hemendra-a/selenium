@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import Baselibrary.Baselibrary;
 
@@ -21,6 +22,7 @@ public class Login extends Baselibrary
 	public void getVerifyTitle() {
 		String title=driver.getTitle();
 		System.out.println("title="+title);
+		Assert.assertEquals(title, "Testing Baba");
 	}
 
 	public void clickonCloseButton() {

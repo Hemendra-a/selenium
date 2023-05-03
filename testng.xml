@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="test.Logintest" enabled="false">
+  <test name="test.Logintest" enabled="true">
     <classes>
       <class name="test.Logintest"/>
     </classes>
     
      </test> 
-   <test name="test.TextBox_test" enabled="false">
+   <test name="test.TextBox_test" enabled="true">
     <classes>
       <class name="test.TextBox_test"/>
     </classes>
     
   </test> 
-   <test name="test.CheckBox_test" enabled="false">
+   <test name="test.CheckBox_test" enabled="true">
    <parameter name="env" value="stagingurl"></parameter>
     <classes>
       <class name="test.CheckBox_test"/>
     </classes>
   </test> 
-    <test name="test.RadioButton_test" enabled="false">
+    <test name="test.RadioButton_test" enabled="true">
     <classes>
       <class name="test.RadioButton_test"/>
     </classes>
   </test> 
-   <test name="test.WebTables_test" enabled="false">
+   <test name="test.WebTables_test" enabled="true">
   <parameter name="env" value="stagingurl"></parameter>
     <classes>
       <class name="test.WebTables_test"/>
     </classes>
   </test> 
-   <test name="test.Button_test" enabled="false">
+   <test name="test.Button_test" enabled="true">
     <parameter name="env" value="stagingurl"></parameter>
     
     <classes>
@@ -38,14 +38,14 @@
     </classes>
     
     </test> 
-   <test name="test.Alert_test" enabled="false">
+   <test name="test.Alert_test" enabled="true">
     <parameter name="env" value="stagingurl"></parameter>
     
     <classes>
       <class name="test.Alert_test"/>
     </classes>
      </test> 
-   <test name="test.upload_download_test" enabled="false">
+   <test name="test.upload_download_test" enabled="true">
     <parameter name="env" value="stagingurl"></parameter>
     
     <classes>
@@ -53,14 +53,8 @@
     </classes>
     
      </test> 
-   <test name="test.reverse_string_test" enabled="false">
-   
-    
-    <classes>
-      <class name="test.reverse_string_test"/>
-    </classes>
-     </test> 
-   <test name="test.browserwindows_test" enabled="false">
+
+   <test name="test.browserwindows_test" enabled="true">
     <parameter name="env" value="stagingurl"></parameter>
     
     <classes>
@@ -68,7 +62,7 @@
     </classes>
     
      </test> 
-   <test name="test.Frame_test" enabled="false">
+   <test name="test.Frame_test" enabled="true">
     <parameter name="env" value="stagingurl"></parameter>
     
     <classes>
@@ -81,13 +75,13 @@
       <class name="test.SelectMenu_test"/>
     </classes>
   </test> 
-   <test name="test.mousehower_click_test" enabled="false">
+   <test name="test.mousehower_click_test" enabled="true">
    <parameter name="env" value="stagingurl"></parameter>
     <classes>
       <class name="test.mousehower_click_test"/>
     </classes>
   </test> 
-   <test name="test.Datapicker_test" enabled="false">
+   <test name="test.Datapicker_test" enabled="true">
    <parameter name="env" value="stagingurl"></parameter>
     <classes>
       <class name="test.Datapicker_test"/>
