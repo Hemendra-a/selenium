@@ -35,4 +35,8 @@ public class datadriven {
 		workbook.close();
 		return data;
 	}
+	    public static void main(String[] args) throws IOException {
+	    	excelDataReader("C:\\Users\\winni\\git\\selenium2\\TestData\\ExcelData.xlsx", "Sheet2");
+	    	System.out.println(excelDataReader("C:\\Users\\winni\\git\\selenium2\\TestData\\ExcelData.xlsx", "Sheet2"));
+		}
 }
