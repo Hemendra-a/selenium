@@ -1,4 +1,4 @@
-package pages;
+ package pages;
 
 import java.util.Set;
 
@@ -38,6 +38,7 @@ public class browserwindows_page extends Baselibrary {
 	
 	}
 	public void clickonNewWindow() {
+		
 		NewWindow.click();
 		String parent=driver.getWindowHandle();
 		System.out.println("parentwindow: "+parent);
